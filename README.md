@@ -1,7 +1,5 @@
 # ✅Connecting jenkins to gitlab through access tokens😎
 
-
-
 ### -> 🤦🏻‍♂️Install plugins in Jenkins Gitlab API and Gitlab Plugin🤞🏻
 ### -> 🤳🏻Create new access Token in gitlab with API and read and write marked ( Copy and save it you'll get it again )
 ### -> In manage Jenkins Add Git specs and test the connection 👩🏻‍❤️‍👨🏻
@@ -27,7 +25,9 @@
 ### -> build it again ( Yup.. You configured gitlab 👍 )
 ### -> hope build stage turns green 💚
 
-# ✅Installing Gradle on Jenkins ( I would like to give gradle path by installing jenkins on my os❗️ )
+## 🪢🪢🪢🪢🪢🪢🪢🪢🪢🪢🪢🪢🪢🪢🪢🪢🪢🪢🪢🪢🪢🪢🪢🪢🪢🪢🪢🪢🪢🪢🪢🪢🪢🪢
+
+# ✅Installing Gradle on Jenkins ( I would like to give gradle path to jenkins by installing it on my os❗️ )
 ### I deployed jenkins on AWS EC2 ( use your pem file and IP adress given by instance )
           ssh -i file_name.pem ec2user@192.168.1.1
 ### after logging in Install gradle ( usually there will be problem to install directtly using yum follow this method )
