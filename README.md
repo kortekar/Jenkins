@@ -1,3 +1,35 @@
+# Installation problems ❗️
+### ✅ First try below code 👇🏻
+          sudo apt update
+          sudo apt install openjdk-11-jdk
+          sudo apt install jenkins
+### ✅ if done 
+          sudo systemctl start jenkins
+### ✅ to enable jenkins on boot 
+          sudo systemctl enable jenkins
+### ✅ to get intial jenkins password 🔪
+          sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+##### ✅ you can go to http://<your_vm_external_ip>:8080 and access the jenins ✌️
+
+## 🛠️ ❗️❗️ if jenkins is throwing an error ( sometimes jdk also gives problem of missing package 💁🏻)
+          sudo apt update
+          sudo apt install default-jdk
+###### use above command if you're facing jdk problems
+### ✅ After installing JDK use below commands
+          sudo wget -O /usr/share/keyrings/jenkins-keyring.asc \
+            https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key
+          echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
+            https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
+            /etc/apt/sources.list.d/jenkins.list > /dev/null
+          sudo apt-get update
+          sudo apt-get install jenkins
+### done ✌️🪢✌️
+
+##### Just to verify use below command
+          sudo cat /etc/default/jenkins | grep JAVA_HOME
+
+#
+#
 # ✅Connecting jenkins to gitlab through access tokens😎
 
 ### -> 🤦🏻‍♂️Install plugins in Jenkins Gitlab API and Gitlab Plugin🤞🏻
