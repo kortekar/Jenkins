@@ -1,6 +1,7 @@
-# Deploying Kubernetes Deployment in GCP
+# Deployment to Kubernetes in GCP through CLI 
+### ✍🏻👨🏻‍💻 you can use it inside jenkins pipelines
 
-#### ❄️❄️❄️ To deploy a Kubernetes deployment (`deployment.yaml`) to a Google Cloud Platform (GCP) Kubernetes cluster :
+#### ❄️ To deploy a Kubernetes deployment (`deployment.yaml`) to a Google Cloud Platform (GCP) Kubernetes cluster :
 
  ### ✅ **Activate Service Account**: Activate the service account using the following command. 
  ❗️ Replace `/path/to/service-account-key.json` with the actual path to your service account key file:
