@@ -7,6 +7,7 @@
  ❗️ Replace `/path/to/service-account-key.json` with the actual path to your service account key file:
  
          gcloud auth activate-service-account --key-file=/path/to/service-account-key.json
+ 
   
 ### ✅ **Authenticate with the Cluster**: Authenticate with the Kubernetes cluster using the following command. 
 ❗️ Replace CLUSTER_NAME, REGION, and PROJECT_ID with your cluster name, region, and project ID:
